@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>by meerbi.design</title>
+<style id="applicationStylesheet" type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+	display: none;
+	user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+* {
+	font-family: Inter;
+}
+		textarea:focus, input:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  background: rgb(43, 39, 39);
+  margin: 0;
+  border: 0;
+}
+#amount,
+#amountw,
+#amountt,
+#to {
+    background: transparent;
+    outline: none;
+    font-size: 0.7rem;
+    color: #a7a4a4;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    width: 210px;
+}
+button{
+	cursor: pointer;
+	border: 0;
+}
+
+.btn{
+	z-index: 1000;
+	background-color:transparent;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:11px;
+	margin-left: -25px;
+	margin-top: 0px;
+	padding:5px 30px;
+	text-decoration:none;
+	transition: 300ms;
+
+
+}
+	.mediaViewInfo {
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Canvas;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	.Canvas_Class {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(0,0,0,0);
+		overflow: hidden;
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	.banking_Class {
+		position: absolute;
+		width: 1058px;
+		height: 592px;
+		left: 431px;
+		top: 244px;
+		overflow: visible;
+	}
+	.Gruppe_11_Class {
+		position: absolute;
+		width: 1058px;
+		height: 592px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.bg_Class {
+		position: absolute;
+		width: 1058px;
+		height: 592px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.card_Class {
+		position: absolute;
+		width: 236px;
+		height: 145px;
+		left: 64px;
+		top: 101px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_16_l_Class {
+		opacity: 0.149;
+		fill: url(#Abgerundetes_Rechteck_16_l);
+	}
+	.Abgerundetes_Rechteck_16_l {
+		position: absolute;
+		overflow: visible;
+		width: 236px;
+		height: 145px;
+		left: 0px;
+		top: 0px;
+	}
+	.Abgerundetes_Rechteck_16_m_Class {
+		opacity: 0.22;
+		fill: rgba(0,0,0,0);
+		stroke: rgba(255,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 100;
+		shape-rendering: auto;
+	}
+	.Abgerundetes_Rechteck_16_m {
+		position: absolute;
+		overflow: visible;
+		width: 236px;
+		height: 145px;
+		left: 0px;
+		top: 0px;
+	}
+	.PAYMENT_CARD_Class {
+		left: 13px;
+		top: 11px;
+		position: absolute;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(179,179,179,1);
+		letter-spacing: 1px;
+	}
+	.Ebene_4_Class {
+		position: absolute;
+		width: 32px;
+		height: 10px;
+		left: 190px;
+		top: 15px;
+		overflow: visible;
+	}
+	.n_234_5824_7592_7429_Class {
+		left: 16px;
+		top: 113px;
+		position: absolute;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_527_Class {
+		left: 180px;
+		top: 112px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.Logo_Class {
+		position: absolute;
+		width: 24px;
+		height: 19px;
+		left: 21px;
+		top: 21px;
+		overflow: visible;
+	}
+	.kontioinhaber_Class {
+		position: absolute;
+		width: 138px;
+		height: 37px;
+		left: 78px;
+		top: 151px;
+		overflow: visible;
+	}
+	.KONTOINHABER_Class {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(179,179,179,1);
+	}
+	.meerbidesign_Class {
+		left: 1px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		line-height: 15.99999713897705px;
+		margin-top: -1.3333334922790527px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13.333330154418945px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.5px;
+	}
+	.kontostand_Class {
+		position: absolute;
+		width: 95px;
+		height: 43px;
+		left: 68px;
+		top: 270px;
+		overflow: visible;
+	}
+	.KONTOSTAND_w_Class {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(179,179,179,1);
+	}
+	.n_283312_Class {
+		left: 1px;
+		top: 14px;
+		position: absolute;
+		overflow: visible;
+		width: 95px;
+		white-space: nowrap;
+		line-height: 24.999998092651367px;
+		margin-top: -2.083333969116211px;
+		text-align: left;
+		font-family: Poppins-Bold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18.833330154418945px;
+		color: rgba(255,255,255,1);
+	}
+	.stats_Class {
+		position: absolute;
+		width: 221px;
+		height: 202px;
+		left: 68px;
+		top: 342px;
+		overflow: visible;
+	}
+	.Gruppe_33_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_1_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33__Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 1px;
+		top: 32px;
+		overflow: visible;
+	}
+	.Ellipse_1__Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_ {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text__Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472___Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22__Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_ba_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33_bb_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 0px;
+		top: 62px;
+		overflow: visible;
+	}
+	.Ellipse_1_bc_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_bc {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_bd_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__be_Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_bf_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_bg_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33_bh_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 0px;
+		top: 92px;
+		overflow: visible;
+	}
+	.Ellipse_1_bi_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_bi {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_bj_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__bk_Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_bl_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_bm_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33_bn_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 1px;
+		top: 122px;
+		overflow: visible;
+	}
+	.Ellipse_1_bo_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_bo {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_bp_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__bq_Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_br_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_bs_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33_bt_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 1px;
+		top: 152px;
+		overflow: visible;
+	}
+	.Ellipse_1_bu_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_bu {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_bv_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__bw_Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_bx_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_by_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.Gruppe_33_bz_Class {
+		position: absolute;
+		width: 220px;
+		height: 20px;
+		left: 1px;
+		top: 182px;
+		overflow: visible;
+	}
+	.Ellipse_1_b_Class {
+		opacity: 0.149;
+		fill: rgba(254,1,1,1);
+	}
+	.Ellipse_1_b {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	.Text_b_Class {
+		left: 5.873px;
+		top: 1.57px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.n_72472__b_Class {
+		left: 30px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.MAR_22_b_Class {
+		left: 103px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.UNKNOWN_b_Class {
+		left: 160px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.9916601181030273px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(152,152,152,1);
+		letter-spacing: 1px;
+	}
+	.monta_Class {
+		position: absolute;
+		width: 102.89px;
+		height: 33.838px;
+		left: 130.611px;
+		top: 470px;
+		overflow: visible;
+	}
+	.DIESEN_MONAT_Class {
+		left: 3.389px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -1.5749950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11.25px;
+		color: rgba(179,179,179,1);
+	}
+	.Gruppe_23_Class {
+		position: absolute;
+		width: 47.178px;
+		height: 15px;
+		left: 0px;
+		top: 17.663px;
+		overflow: visible;
+	}
+	.n_17231_Class {
+		left: 13.178px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12.000001907348633px;
+		margin-top: -1.0000009536743164px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	.Polygon_1_Class {
+		fill: rgba(254,1,1,1);
+	}
+	.Polygon_1 {
+		overflow: visible;
+		position: absolute;
+		width: 8.378px;
+		height: 7.275px;
+		left: 0px;
+		top: 3.162px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Gruppe_23_ca_Class {
+		position: absolute;
+		width: 47.861px;
+		height: 15px;
+		left: 55.03px;
+		top: 18.838px;
+		overflow: visible;
+	}
+	.n_2421_Class {
+		left: 13.861px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12.60000228881836px;
+		margin-top: -1.0500011444091797px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.5px;
+		color: rgba(255,255,255,1);
+	}
+	.Polygon_1_cc_Class {
+		fill: rgba(110,110,110,1);
+	}
+	.Polygon_1_cc {
+		overflow: visible;
+		position: absolute;
+		width: 8.797px;
+		height: 7.638px;
+		left: 0px;
+		top: 2.771px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.control_Class {
+		position: absolute;
+		width: 648px;
+		height: 142px;
+		left: 373px;
+		top: 418px;
+		overflow: visible;
+	}
+	.Gruppe_38_Class {
+		position: absolute;
+		width: 204px;
+		height: 142px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_17_Class {
+		opacity: 0.051;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_17 {
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 142px;
+		left: 1px;
+		top: 0px;
+	}
+	.Gruppe_37_Class {
+		position: absolute;
+		width: 199px;
+		height: 119px;
+		left: 0px;
+		top: 12px;
+		overflow: visible;
+	}
+	.Gruppe_36_Class {
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 90px;
+		top: 89px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_18_Class {
+		opacity: 0.18;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_18 {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.send_2_Class {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 6px;
+		top: 9px;
+		overflow: visible;
+	}
+	.GELD_SENDEN_Class {
+		left: 17px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.5px;
+	}
+	.Gruppe_35_Class {
+		position: absolute;
+		width: 126px;
+		height: 43px;
+		left: 16px;
+		top: 29px;
+		overflow: visible;
+	}
+	.Gruppe_34_Class {
+		position: absolute;
+		width: 113px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.n_1000000_Class {
+		left: 38px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4.75px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+	}
+	.BETRAG_Class {
+		left: 0px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(161,161,161,1);
+	}
+	.Gruppe_34_cp_Class {
+		position: absolute;
+		width: 126px;
+		height: 15px;
+		left: 0px;
+		top: 28px;
+		overflow: visible;
+	}
+	.meerbidesign_cq_Class {
+		left: 38px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4.75px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+	}
+	.ID_Class {
+		left: 0px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(161,161,161,1);
+	}
+	.Abgerundetes_Rechteck_19_Class {
+		opacity: 0.141;
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 0px;
+		top: 25px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_19_ct_Class {
+		opacity: 0.141;
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 1px;
+		top: 55px;
+		overflow: visible;
+	}
+	.Gruppe_38_cu_Class {
+		position: absolute;
+		width: 204px;
+		height: 142px;
+		left: 222px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_17_cv_Class {
+		opacity: 0.051;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_17_cv {
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 142px;
+		left: 1px;
+		top: 0px;
+	}
+	.Gruppe_37_cw_Class {
+		position: absolute;
+		width: 198px;
+		height: 119px;
+		left: 0px;
+		top: 12px;
+		overflow: visible;
+	}
+	.Gruppe_36_cx_Class {
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 90px;
+		top: 89px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_18_cy_Class {
+		opacity: 0.18;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_18_cy {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.send_2_cz_Class {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 6px;
+		top: 9px;
+		overflow: visible;
+	}
+	.GELD_AUSZAHLEN_Class {
+		left: 17px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.5px;
+	}
+	.Gruppe_39_Class {
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 0px;
+		top: 39px;
+		overflow: visible;
+	}
+	.Gruppe_35_c_Class {
+		position: absolute;
+		width: 113px;
+		height: 15px;
+		left: 16px;
+		top: 4px;
+		overflow: visible;
+	}
+	.Gruppe_34_c_Class {
+		position: absolute;
+		width: 113px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.n_1000000_c_Class {
+		left: 38px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4.75px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+	}
+	.BETRAG_c_Class {
+		left: 0px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(161,161,161,1);
+	}
+	.Abgerundetes_Rechteck_19_c_Class {
+		opacity: 0.141;
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Gruppe_38_c_Class {
+		position: absolute;
+		width: 204px;
+		height: 142px;
+		left: 444px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_17_c_Class {
+		opacity: 0.051;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_17_c {
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 142px;
+		left: 1px;
+		top: 0px;
+	}
+	.Gruppe_37_c_Class {
+		position: absolute;
+		width: 198px;
+		height: 119px;
+		left: 0px;
+		top: 12px;
+		overflow: visible;
+	}
+	.Gruppe_36_da_Class {
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 90px;
+		top: 89px;
+		overflow: visible;
+	}
+	.Abgerundetes_Rechteck_18_db_Class {
+		opacity: 0.18;
+		fill: rgba(255,0,0,1);
+	}
+	.Abgerundetes_Rechteck_18_db {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.send_2_dc_Class {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 6px;
+		top: 9px;
+		overflow: visible;
+	}
+	.GELD_EINZAHLEN_Class {
+		left: 17px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.5px;
+	}
+	.Gruppe_39_de_Class {
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 0px;
+		top: 39px;
+		overflow: visible;
+	}
+	.Gruppe_35_df_Class {
+		position: absolute;
+		width: 113px;
+		height: 15px;
+		left: 16px;
+		top: 4px;
+		overflow: visible;
+	}
+	.Gruppe_34_dg_Class {
+		position: absolute;
+		width: 113px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.n_1000000_dh_Class {
+		left: 38px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4.75px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+	}
+	.BETRAG_di_Class {
+		left: 0px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -6.833334922790527px;
+		text-align: left;
+		font-family: Inter-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8.333330154418945px;
+		color: rgba(161,161,161,1);
+	}
+	.Abgerundetes_Rechteck_19_dj_Class {
+		opacity: 0.141;
+		position: absolute;
+		width: 198px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.chart_Class {
+		position: absolute;
+		width: 585px;
+		height: 277px;
+		left: 386px;
+		top: 91px;
+		overflow: visible;
+	}
+	.schrift_Class {
+		position: absolute;
+		width: 68px;
+		height: 31px;
+		left: 61px;
+		top: 14px;
+		overflow: visible;
+	}
+	.GLRP_Class {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -0.9499950408935547px;
+		text-align: left;
+		font-family: Poppins-Light;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.5px;
+	}
+	.ROLEPLAY_Class {
+		left: 0px;
+		top: 14px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		line-height: 14.39999008178711px;
+		margin-top: -0.9499950408935547px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	.close_Class {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 1024px;
+		top: 21px;
+		overflow: visible;
+	}
+</style>
+<script id="applicationScript" type="text/javascript" src="rescale.js"></script>
+</head>
+<body>
+<div id="Canvas" class="Canvas_Class">
+	<div class="banking_Class">
+		<div class="Gruppe_11_Class">
+			<img class="bg_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728475725631579/bg.png">
+				
+			<div class="card_Class">
+				<svg class="Abgerundetes_Rechteck_16_l">
+					<rect class="Abgerundetes_Rechteck_16_l_Class" rx="10" ry="10" x="0" y="0" width="236" height="145">
+					</rect>
+				</svg>
+				<svg class="Abgerundetes_Rechteck_16_m">
+					<rect class="Abgerundetes_Rechteck_16_m_Class" rx="10" ry="10" x="0" y="0" width="236" height="145">
+					</rect>
+				</svg>
+				<div class="PAYMENT_CARD_Class">
+					<span>PAYMENT CARD</span>
+				</div>
+				<img class="Ebene_4_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728524215980032/Ebene_4.png">
+					
+				<div class="n_234_5824_7592_7429_Class">
+					<span>4234 5824 7592 7429</span>
+				</div>
+				<div class="n_527_Class">
+					<span>05/27</span>
+				</div>
+			</div>
+			<img class="Logo_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728570726629407/Logo.png">
+				
+		</div>
+		<div class="kontioinhaber_Class">
+			<div class="KONTOINHABER_Class">
+				<span>KONTOINHABER</span>
+			</div>
+			<div class="meerbidesign_Class">
+				<span class="name"><span class="username1"></b></span></span>
+			</div>
+		</div>
+		<div class="kontostand_Class">
+			<div class="KONTOSTAND_w_Class">
+				<span>KONTOSTAND</span>
+			</div>
+			<div class="n_283312_Class">
+				<span class="money"><span class="curbalance"></span><b><span class="dollars"> $</span>
+			</div>
+		</div>
+		<div class="stats_Class">
+			<div class="Gruppe_33_Class">
+				<svg class="Ellipse_1">
+					<ellipse class="Ellipse_1_Class" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div class="Text_Class">
+					<span>+</span>
+				</div>
+				<div class="n_72472__Class">
+					<span>132.235 $</span>
+				</div>
+				<div class="MAR_22_Class">
+					<span>MAR 22</span>
+				</div>
+				<div class="UNKNOWN_Class">
+					<span></span>
+				</div>
+			</div>
+			<div class="Gruppe_33__Class">
+				<svg class="Ellipse_1_">
+					<ellipse class="Ellipse_1__Class" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div class="Text__Class">
+					<span>+</span>
+				</div>
+				<div class="n_72472___Class">
+					<span>472.472 $</span>
+				</div>
+				<div class="MAR_22__Class">
+					<span>MAR 21</span>
+				</div>
+				<div class="UNKNOWN_ba_Class">
+					<span></span>
+				</div>
+			</div>
+			<div class="Gruppe_33_bb_Class">
+				<svg class="Ellipse_1_bc">
+					<ellipse class="Ellipse_1_bc_Class" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div class="Text_bd_Class">
+					<span>+</span>
+				</div>
+				<div class="n_72472__be_Class">
+					<span>31.472 $</span>
+				</div>
+				<div class="MAR_22_bf_Class">
+					<span>MAR 05</span>
+				</div>
+				<div class="UNKNOWN_bg_Class">
+					<span></span>
+				</div>
+			</div>
+			<div class="Gruppe_33_bh_Class">
+				<svg class="Ellipse_1_bi">
+					<ellipse class="Ellipse_1_bi_Class" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div class="Text_bj_Class">
+					<span>+</span>
+				</div>
+				<div class="n_72472__bk_Class">
+					<span>12.472 $</span>
+				</div>
+				<div class="MAR_22_bl_Class">
+					<span>MAR 01</span>
+				</div>
+				<div class="UNKNOWN_bm_Class">
+					<span></span>
+				</div>
+			</div>
+
+		</div>
+		<div class="monta_Class">
+			<div class="DIESEN_MONAT_Class">
+				<span>DIESEN MONAT</span>
+			</div>
+			<div class="Gruppe_23_Class">
+				<div class="n_17231_Class">
+					<span>$ 17.231</span>
+				</div>
+				<svg class="Polygon_1" viewBox="619.611 534.825 8.378 7.275">
+					<path class="Polygon_1_Class" d="M 627.9891967773438 542.0623779296875 L 619.6107177734375 542.0996704101562 L 623.7675170898438 534.8250732421875 L 627.9891967773438 542.0623779296875 Z">
+					</path>
+				</svg>
+			</div>
+			<div class="Gruppe_23_ca_Class">
+				<div class="n_2421_Class">
+					<span>$ 2.421</span>
+				</div>
+				<svg class="Polygon_1_cc" viewBox="674.64 535.609 8.797 7.638">
+					<path class="Polygon_1_cc_Class" d="M 674.640380859375 535.647705078125 L 683.4378051757812 535.6085815429688 L 679.0731201171875 543.2468872070312 L 674.640380859375 535.647705078125 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<div class="control_Class">
+
+			<form id="transfer1">
+				<div class="Gruppe_38_Class">
+					<svg class="Abgerundetes_Rechteck_17">
+						<rect class="Abgerundetes_Rechteck_17_Class" rx="10" ry="10" x="0" y="0" width="203" height="142">
+						</rect>
+					</svg>
+					<div class="Gruppe_37_Class">
+						<div class="Gruppe_36_Class">
+							<svg class="Abgerundetes_Rechteck_18">
+								<rect class="Abgerundetes_Rechteck_18_Class" rx="5" ry="5" x="0" y="0" width="30" height="30">
+								</rect>
+							</svg>
+							<button class="btn" type="submit">
+							<img class="send_2_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728720773644308/send_2.png">
+							</button>
+								
+						</div>
+						<div class="GELD_SENDEN_Class">
+							<span>GELD SENDEN</span>
+						</div>
+						<div class="Gruppe_35_Class">
+							<div class="Gruppe_34_Class">
+								<div class="n_1000000_Class">
+									<input id="amountt" type="number" placeholder="0 $">
+								</div>
+								<div class="BETRAG_Class">
+									<span>BETRAG</span>
+								</div>
+							</div>
+							<div class="Gruppe_34_cp_Class">
+								<div class="meerbidesign_cq_Class">
+									<input style="margin-top: 4px;" id="to" type="text" placeholder="ID">
+								</div>
+								<div class="ID_Class">
+									<span>ID</span>
+								</div>
+							</div>
+						</div>
+							
+					</div>
+				</div>
+			</form>
+			<form id="withdraw1">
+				<div class="Gruppe_38_cu_Class">
+					<svg class="Abgerundetes_Rechteck_17_cv">
+						<rect class="Abgerundetes_Rechteck_17_cv_Class" rx="10" ry="10" x="0" y="0" width="203" height="142">
+						</rect>
+					</svg>
+					<div class="Gruppe_37_cw_Class">
+						<div class="Gruppe_36_cx_Class">
+							<svg class="Abgerundetes_Rechteck_18_cy">
+								<rect class="Abgerundetes_Rechteck_18_cy_Class" rx="5" ry="5" x="0" y="0" width="30" height="30">
+								</rect>
+							</svg>
+							<button class="btn" type="submit">
+								<img class="send_2_cz_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728720773644308/send_2.png">
+							</button>
+								
+						</div>
+						<div class="GELD_AUSZAHLEN_Class">
+							<span>GELD AUSZAHLEN</span>
+						</div>
+						<div class="Gruppe_39_Class">
+							<div class="Gruppe_35_c_Class">
+								<div class="Gruppe_34_c_Class">
+									<div class="n_1000000_c_Class">
+										<b><input id="amount" type="number" placeholder="0 $"></b>
+									</div>
+									<div class="BETRAG_c_Class">
+										<span>BETRAG</span>
+									</div>
+								</div>
+							</div>
+								
+						</div>
+					</div>
+				</div>
+			</form>
+			<form id="deposit1">
+				<div class="Gruppe_38_c_Class">
+					<svg class="Abgerundetes_Rechteck_17_c">
+						<rect class="Abgerundetes_Rechteck_17_c_Class" rx="10" ry="10" x="0" y="0" width="203" height="142">
+						</rect>
+					</svg>
+					<div class="Gruppe_37_c_Class">
+						<div class="Gruppe_36_da_Class">
+							<svg class="Abgerundetes_Rechteck_18_db">
+								<rect class="Abgerundetes_Rechteck_18_db_Class" rx="5" ry="5" x="0" y="0" width="30" height="30">
+								</rect>
+							</svg>
+							<button class="btn" type="submit">
+								<img class="send_2_dc_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728720773644308/send_2.png">
+							</button>
+								
+						</div>
+						<div class="GELD_EINZAHLEN_Class">
+							<span>GELD EINZAHLEN</span>
+						</div>
+						<div class="Gruppe_39_de_Class">
+							<div class="Gruppe_35_df_Class">
+								<div class="Gruppe_34_dg_Class">
+									<div class="n_1000000_dh_Class">
+										<b><input id="amountw" type="number" placeholder="0 $"></b>
+									</div>
+									<div class="BETRAG_di_Class">
+										<span>BETRAG</span>
+									</div>
+								</div>
+							</div>
+								
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<img class="chart_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728932711845918/chart.png">
+			
+		<div class="schrift_Class">
+			<div class="GLRP_Class">
+				<span>GLRP</span>
+			</div>
+			<div class="ROLEPLAY_Class">
+				<span>ROLEPLAY</span>
+			</div>
+		</div>
+		<button class="btn-sign-out">
+			<img class="close_Class" src="https://cdn.discordapp.com/attachments/788240573382787114/971728824544936006/close.png">
+		</button>
+			
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    	<script type="text/javascript">
+    		$(function() {
+				window.addEventListener('message', function(event) {
+					if (event.data.type === "openGeneral"){
+		                $('body').show();
+					} else if(event.data.type === "balanceHUD") {
+							$('.username1').html(event.data.player);
+							$('.curbalance').html(event.data.balance);
+					} else if (event.data.type === "closeAll"){
+		                $('body').hide();
+					}
+					else if (event.data.type === "result") {
+						if (event.data.t == "success")
+							$("#result").attr('class', 'alert-green');
+						else
+							$("#result").attr('class', 'alert-orange');
+						$("#result").html(event.data.m).show().delay(5000).fadeOut();
+					}
+				});
+			});
+    		$('.btn-sign-out').click(function(){
+	            $('body').hide();
+	            $.post('https://GLRP_Bank/NUIFocusOff', JSON.stringify({}));
+	        })
+	        $("#deposit1").submit(function(e) {
+		        e.preventDefault(); 
+		        $.post('https://GLRP_Bank/deposit', JSON.stringify({
+		            amount: $("#amountw").val()
+		        }));
+			});
+			$("#transfer1").submit(function(e) {
+		        e.preventDefault(); 
+		        $.post('https://GLRP_Bank/transfer', JSON.stringify({
+					to: $("#to").val(),
+		            amountt: $("#amountt").val()
+		        }));
+			});
+			$("#withdraw1").submit(function(e) {
+				e.preventDefault(); 
+		        $.post('https://GLRP_Bank/withdrawl', JSON.stringify({
+		            amountw: $("#amount").val()
+		        }));
+			});
+			document.onkeyup = function(data){
+		        if (data.which == 27){
+		            $('body').hide();
+		            $.post('https://GLRP_Bank/NUIFocusOff', JSON.stringify({}));
+		        }
+		    }
+    	</script>
+</body>
+</html>
